@@ -10,6 +10,8 @@
 **A modern, AI-powered REST API client built with React and TypeScript.**  
 Test, debug, and analyze your API requests with a beautiful, intuitive interface.
 
+🔗 Live Demo: https://rest-client-api.netlify.app/
+
 </div>
 
 ## ✨ Features
