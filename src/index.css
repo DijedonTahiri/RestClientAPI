@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Color Variables */
+  --blue-500: #3b82f6;
+  --purple-500: #8b5cf6;
+  --green-500: #22c55e;
+  --red-500: #ef4444;
+  --amber-500: #f59e0b;
+  --pink-500: #ec4899;
+
+  /* Default accent color */
+  --accent-color: var(--blue-500);
+}
+
+/* Accent color utility classes */
+.text-accent {
+  color: var(--accent-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.hover\:bg-accent:hover {
+  background-color: var(--accent-color);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
+}
+
+.hover\:border-accent:hover {
+  border-color: var(--accent-color);
+}
+
+.ring-accent {
+  --tw-ring-color: var(--accent-color);
+}
+
+.hover\:text-accent:hover {
+  color: var(--accent-color);
+}
+
+.bg-accent\/10 {
+  background-color: color-mix(in srgb, var(--accent-color) 10%, transparent);
+}
+
+.dark .dark\:text-accent {
+  color: var(--accent-color);
+}
+
+.dark .dark\:bg-accent {
+  background-color: var(--accent-color);
+}
+
+.dark .dark\:hover\:bg-accent:hover {
+  background-color: var(--accent-color);
+}
+
+.dark .dark\:border-accent {
+  border-color: var(--accent-color);
+}
