@@ -51,9 +51,9 @@ npm run dev
 [![OpenAI](https://img.shields.io/badge/OpenAI-API-412991?logo=openai&logoColor=white&style=for-the-badge)](https://openai.com/)
 
 **Additional Libraries:**
-- Radix UI Primitives
-- DND Kit
-- Lucide Icons
+Radix UI Primitives
+DND Kit
+Lucide Icons
 
 </div>
 
@@ -64,5 +64,5 @@ npm run dev
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/yourusername">your username</a></sub>
+  <sub>Built with ❤️ by <a href="https://github.com/DijedonTahiri">Dijedon Tahiri</a></sub>
 </div>
